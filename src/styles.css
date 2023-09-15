@@ -1,0 +1,105 @@
+.top {
+  height: 300px;
+  background-color: pink;
+  display: flex;
+
+}
+.face {
+  position: absolute;
+  background-color: antiquewhite;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  margin-left: 5px;
+  margin-top: 150px;
+}
+.sad-mouth {
+  width: 50px;
+  height: 25px;
+  background-color: antiquewhite;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border: 10px solid black;
+  border-bottom: 0px;
+  margin-left: 45px;
+  margin-top: -15px;
+}
+.happy-mouth {
+  width: 50px;
+  height: 25px;
+  background-color: antiquewhite;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border: 10px solid black;
+  border-bottom: 0px;
+  margin-left: 45px;
+  margin-top: -5px;
+}
+
+
+.yellow-face {
+  position: absolute;
+  background-color: rgb(254, 241, 103);
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  margin-left: 50px;
+  margin-bottom: 80px;
+
+}
+.red-face{
+  flex-direction:row;
+  background-color: rgb(254, 13, 13);
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  margin-left: 0px;
+  margin-bottom: 100px;
+
+}
+.eye-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+.eye {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.pupil {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin: 10px 0px 10px 20px;
+}
+.display {
+  background-color: lightcoral;
+  height: 60px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+  border: solid 20px rgb(219, 101, 103);
+  font-family: 'Trebuchet MS','Lucida Sans Unicode';
+  color:aliceblue;
+  font-size: 40px;
+  text-align: center;
+}
+
+.wall{
+  width: 350px;
+  height: 200px;
+  background-color: palevioletred;
+  border-radius: 30px;
+  border: solid purple 10px;
+}
+
+.grid {
+  width: 400px;
+  height: 310px;
+  border: solid black;
+}
